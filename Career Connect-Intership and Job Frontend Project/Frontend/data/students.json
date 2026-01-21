@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Danyal Hussain",
+    "email": "danyal@example.com",
+    "password": "danyal123",
+    "cgpa": 3.8,
+    "skills": ["JavaScript", "React", "Node.js", "HTML", "CSS"],
+    "degree": "Bachelor of Science in Computer Science",
+    "city": "Bahawalpur",
+    "resume": ""
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "john123",
+    "cgpa": 3.5,
+    "skills": ["Python", "Java", "SQL"],
+    "degree": "Bachelor of Science in Computer Science",
+    "city": "New York",
+    "resume": ""
+  }
+]

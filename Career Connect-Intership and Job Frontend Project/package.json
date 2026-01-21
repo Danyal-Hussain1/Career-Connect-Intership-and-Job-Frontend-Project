@@ -1,0 +1,23 @@
+{
+  "name": "career-connect",
+  "version": "1.0.0",
+  "description": "Career Connect - Internship & Job Portal (Frontend Only with JSON Server)",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 3001",
+    "dev": "json-server --watch db.json --port 3001"
+  },
+  "keywords": [
+    "job-portal",
+    "internship",
+    "frontend",
+    "json-server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}
+
+

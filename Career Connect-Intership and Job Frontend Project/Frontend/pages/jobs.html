@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Jobs - CareerConnect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-briefcase me-2"></i>CareerConnect
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="jobs.html">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container py-5">
+            <!-- Page Header -->
+            <div class="text-center mb-5">
+                <h1>Browse Job Opportunities</h1>
+                <p class="text-secondary">Find your perfect job match</p>
+            </div>
+
+            <!-- Search and Filters -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" placeholder="Search jobs...">
+                        </div>
+                        <div class="col-md-3">
+                            <select class="form-select">
+                                <option>All Categories</option>
+                                <option>Technology</option>
+                                <option>Marketing</option>
+                                <option>Design</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="form-select">
+                                <option>All Types</option>
+                                <option>Full-time</option>
+                                <option>Internship</option>
+                                <option>Part-time</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-primary w-100">
+                                <i class="fas fa-search me-2"></i>Search
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Job Listings -->
+            <div class="job-card">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                    <div>
+                        <span class="job-type job-type-fulltime">Full-time</span>
+                        <h3 class="mt-2 mb-1">Frontend Developer</h3>
+                        <p class="text-secondary mb-1">
+                            <i class="fas fa-building me-2"></i>Tech Corp Inc
+                        </p>
+                        <p class="text-secondary mb-0">
+                            <i class="fas fa-map-marker-alt me-2"></i>Remote / New York, NY
+                        </p>
+                    </div>
+                    <button class="btn btn-primary apply-btn" data-job-title="Frontend Developer">
+                        Apply Now
+                    </button>
+                </div>
+                <p class="mb-3">We are looking for an experienced Frontend Developer to join our team. You will be responsible for building user interfaces and creating amazing user experiences.</p>
+                <div>
+                    <span class="skill-badge">React</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">CSS</span>
+                    <span class="skill-badge">HTML</span>
+                </div>
+            </div>
+
+            <div class="job-card">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                    <div>
+                        <span class="job-type job-type-internship">Internship</span>
+                        <h3 class="mt-2 mb-1">Marketing Intern</h3>
+                        <p class="text-secondary mb-1">
+                            <i class="fas fa-building me-2"></i>Global Brands
+                        </p>
+                        <p class="text-secondary mb-0">
+                            <i class="fas fa-map-marker-alt me-2"></i>Los Angeles, CA
+                        </p>
+                    </div>
+                    <button class="btn btn-primary apply-btn" data-job-title="Marketing Intern">
+                        Apply Now
+                    </button>
+                </div>
+                <p class="mb-3">Join our marketing team as an intern and gain hands-on experience in digital marketing, social media, and brand management.</p>
+                <div>
+                    <span class="skill-badge">Marketing</span>
+                    <span class="skill-badge">Social Media</span>
+                    <span class="skill-badge">Content Creation</span>
+                </div>
+            </div>
+
+            <div class="job-card">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                    <div>
+                        <span class="job-type job-type-fulltime">Full-time</span>
+                        <h3 class="mt-2 mb-1">Data Analyst</h3>
+                        <p class="text-secondary mb-1">
+                            <i class="fas fa-building me-2"></i>Data Solutions
+                        </p>
+                        <p class="text-secondary mb-0">
+                            <i class="fas fa-map-marker-alt me-2"></i>Chicago, IL
+                        </p>
+                    </div>
+                    <button class="btn btn-primary apply-btn" data-job-title="Data Analyst">
+                        Apply Now
+                    </button>
+                </div>
+                <p class="mb-3">We need a Data Analyst to help us analyze business data and provide insights to drive decision-making.</p>
+                <div>
+                    <span class="skill-badge">SQL</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">Excel</span>
+                    <span class="skill-badge">Analytics</span>
+                </div>
+            </div>
+
+            <div class="job-card">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                    <div>
+                        <span class="job-type job-type-internship">Internship</span>
+                        <h3 class="mt-2 mb-1">UX Designer</h3>
+                        <p class="text-secondary mb-1">
+                            <i class="fas fa-building me-2"></i>Creative Minds
+                        </p>
+                        <p class="text-secondary mb-0">
+                            <i class="fas fa-map-marker-alt me-2"></i>San Francisco, CA
+                        </p>
+                    </div>
+                    <button class="btn btn-primary apply-btn" data-job-title="UX Designer">
+                        Apply Now
+                    </button>
+                </div>
+                <p class="mb-3">Looking for a creative UX Designer intern to help design user interfaces and improve user experiences for our products.</p>
+                <div>
+                    <span class="skill-badge">Figma</span>
+                    <span class="skill-badge">UI/UX</span>
+                    <span class="skill-badge">Design</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2024 CareerConnect. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../javascript/api.js"></script>
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
